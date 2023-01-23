@@ -1,3 +1,4 @@
+import logo from "../../assets/img/logoShop.svg"
 import styles from "./styles.module.scss";
 
 const Header = () => {
