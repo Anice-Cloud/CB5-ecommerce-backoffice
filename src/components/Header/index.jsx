@@ -1,12 +1,14 @@
 import styles from "./styles.module.scss";
 
-
-import React from 'react'
-
 const Header = () => {
   return (
-    <div className={styles.main}>Header</div>
-  )
-}
+    <div className={styles.main}>
+      <div className={styles.logo}>
+        <h1>E-commerce</h1>
+      </div>
 
-export default Header
+    </div>
+  );
+};
+
+export default Header;
