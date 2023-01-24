@@ -6,14 +6,28 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px 20px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
   border-bottom: 1px solid #ccc;
   .logo {
-    h1 {
-      color: #333;
-      font-size: 20px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    gap: 10px;
+    img {
+      max-width: 50px;
+    }
+    h2 {
+      color: $text-color;
+      font-weight: 900;
+      transform: skew(-22deg);
+
+    }
+    .headLetter{
+      color:$primary-logo-color ;
+    }
+    .logoText{
+      color:$secondary-logo-color;
     }
   }
-
 }
