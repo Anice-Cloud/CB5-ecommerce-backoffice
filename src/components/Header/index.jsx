@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <div className={styles.main}>
       <div className={styles.logo}>
-        <h1>E-commerce</h1>
+        <img src={logo} alt="" /> <h2><span className={styles.headLetter}>E</span>-<span className={styles.logoText}>commerce</span></h2>
+        
       </div>
 
     </div>
